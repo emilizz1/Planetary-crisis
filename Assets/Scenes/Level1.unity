@@ -174,6 +174,7 @@ MonoBehaviour:
   deathFX: {fileID: 1130574584417842, guid: 79936030fa745ce4c9c2db9ab1525aab, type: 2}
   parent: {fileID: 1096898783}
   scorePerHit: 12
+  maxHits: 10
 --- !u!1 &129132846
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +187,7 @@ GameObject:
   - component: {fileID: 129132849}
   - component: {fileID: 129132848}
   m_Layer: 0
-  m_Name: Bullets Right
+  m_Name: Gun Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4817,6 +4818,7 @@ MonoBehaviour:
   deathFX: {fileID: 1130574584417842, guid: 79936030fa745ce4c9c2db9ab1525aab, type: 2}
   parent: {fileID: 1096898783}
   scorePerHit: 12
+  maxHits: 10
 --- !u!1 &291606866
 GameObject:
   m_ObjectHideFlags: 0
@@ -4865,6 +4867,7 @@ MonoBehaviour:
   deathFX: {fileID: 1130574584417842, guid: 79936030fa745ce4c9c2db9ab1525aab, type: 2}
   parent: {fileID: 1096898783}
   scorePerHit: 12
+  maxHits: 10
 --- !u!1 &408177886
 GameObject:
   m_ObjectHideFlags: 0
@@ -5069,6 +5072,9 @@ MonoBehaviour:
   controlSpeed: 12
   clampXMax: 10
   clampYMax: 5.5
+  guns:
+  - {fileID: 1216191658}
+  - {fileID: 129132846}
   positionPitchFactor: -5.5
   positionYawFactor: 5.5
   controlPitchFactor: -20
@@ -5255,6 +5261,7 @@ MonoBehaviour:
   deathFX: {fileID: 1130574584417842, guid: 79936030fa745ce4c9c2db9ab1525aab, type: 2}
   parent: {fileID: 1096898783}
   scorePerHit: 12
+  maxHits: 10
 --- !u!1001 &899729656
 Prefab:
   m_ObjectHideFlags: 0
@@ -10339,7 +10346,7 @@ GameObject:
   - component: {fileID: 1216191661}
   - component: {fileID: 1216191660}
   m_Layer: 0
-  m_Name: Bullets Left
+  m_Name: Gun Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15242,6 +15249,7 @@ MonoBehaviour:
   deathFX: {fileID: 1130574584417842, guid: 79936030fa745ce4c9c2db9ab1525aab, type: 2}
   parent: {fileID: 1096898783}
   scorePerHit: 12
+  maxHits: 10
 --- !u!1 &1943945189
 GameObject:
   m_ObjectHideFlags: 0
